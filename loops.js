@@ -11,4 +11,14 @@ for (let i = 0 ; i < designSkills.length ; i++) {
     console.log (designSkills[i]) // it will loop over the array
 }
 
-//
+// FOR LOOPS WITH IF STATEMENT 
+// **Challenge: Have 9 players. Create a loop that loops over the numbers given to each one of us. 
+// If the person has even number, print out the word 'blue team'. 
+// If it is odd, print out the word 'red team'.
+
+const players = 9
+for (let i = 1 ; i <= players ; i++) {
+    if (i % 2 === 0) { 
+        console.log('Person number ' + i + ' is on the blue team');
+    } else console.log('Person number ' + i + ' is on the red team');
+}
