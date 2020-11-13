@@ -1,16 +1,40 @@
 * {
     box-sizing: border-box;
+   font-family: 'Source Sans Pro', sans-serif;
+
+}
+body {
+    background: #307CBF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1 {
+    color: #D92D07;
+    text-transform: uppercase;
+    align-items: center;
+    
 }
 .grid {
-    width: 270px;
-    height: 270px;
+    width: 286px;
+    height: 286px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: pink;
+    background-color: #4BD4F2;
+    border: #D92D07 solid 8px;
+    border-radius: 20px;
 }
 .grid div {
     width: 30px;
     height: 30px;
-    border: .5px solid red;
+    border: .5px solid #D95407;
 }
+/* Color Theme Swatches in Hex */
+.Game-Design-1-hex { color: #307CBF; }
+.Game-Design-2-hex { color: #4BD4F2; }
+.Game-Design-3-hex { color: #D9A362; }
+.Game-Design-4-hex { color: #D95407; }
+.Game-Design-5-hex { color: #D92D07; }
+
