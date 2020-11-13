@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+.grid {
+    width: 270px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: pink;
+}
+.grid div {
+    width: 30px;
+    height: 30px;
+    border: .5px solid red;
+}
