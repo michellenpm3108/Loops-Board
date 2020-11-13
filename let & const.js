@@ -41,12 +41,10 @@ function increment() {
 }
 increment ()
 
+let book = ['Gulp', ' The Life of Pi', ' Quiet Power', ' Babies Rules']
 function bookReplace() {
-    let bookSold = ['Gulp', ' The Life of Pi', ' Quiet Power']
-    console.log ('We have just sold ' + bookSold.length + ' books: ' + bookSold)
-
-    let newBook = ['Moby Dick', ' Alice in Wonderland', ' Hungry Caterpillar']
-    console.log ( newBook.length + ' new books available in our store are: ' + newBook)
+    book = ['Moby Dick', ' Alice in Wonderland', ' Hungry Caterpillar']
+    console.log ( book.length + ' new books available in our store are: ' + book)
 }
 bookReplace ()
 
