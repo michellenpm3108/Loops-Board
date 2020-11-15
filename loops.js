@@ -22,3 +22,18 @@ for (let i = 1 ; i <= players ; i++) {
         console.log('Person number ' + i + ' is on the blue team');
     } else console.log('Person number ' + i + ' is on the red team');
 }
+
+// **Challenge: you are at your shift at the shop and the owner has left you with a long list of
+//things in the inventory. He has asked you to find out how many 'mustard' bottles you have in 
+//stock. Use a for loop to count the amount of 'mustard' you have.
+
+const shopInventory = ['milk', 'Cheddar', 'mustard', 'ketchup', 'olive oil', 'cheddar', 'milk',
+ 'garlic', 'mayo', 'carrots', 'cheddar', 'Mustard', 'mayo', 'orange juice']
+
+let count = 0 
+for (let i = 0; i < shopInventory.length ; i++) {
+    if (shopInventory[i].toLowerCase() === 'mustard') {
+        count = count + 1 
+    }
+}
+console.log ('We have ' + count + ' mustard(s) left in our inventory')

@@ -3,7 +3,8 @@
 
 
 VOCABULARY
-Assign: assign a value to variable 
-Declare: declare a variable 
-Invoque: invoque a function 
-Loop: loop over an array
+Assign: assign a value to variable | 
+Declare: declare a variable | 
+Invoque: invoque a function | 
+Loop: loop over an array | 
+Call: use () to call the method toLowerCase | 
