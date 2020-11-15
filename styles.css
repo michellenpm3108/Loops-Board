@@ -22,7 +22,7 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #4BD4F2;
+    background-color: #fff;
     border: #D92D07 solid 8px;
     border-radius: 20px;
 }
@@ -30,6 +30,12 @@ h1 {
     width: 30px;
     height: 30px;
     border: .5px solid #D95407;
+}
+.even {
+    background-color: #D95407;
+}
+.odd {
+    background-color: #D9A362;
 }
 /* Color Theme Swatches in Hex */
 .Game-Design-1-hex { color: #307CBF; }
