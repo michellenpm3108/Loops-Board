@@ -37,6 +37,20 @@ h1 {
 .odd {
     background-color: #D9A362;
 }
+
+.pacman-grid {
+    width: 376px;
+    height: 376px;
+    display: flex;
+    flex-wrap: wrap;
+    border: white solid 8px;
+    background-color: #ffcdf9;
+}
+.pacman-grid div {
+    width: 20px;
+    height: 20px;
+    border: white solid .5px
+}
 /* Color Theme Swatches in Hex */
 .Game-Design-1-hex { color: #307CBF; }
 .Game-Design-2-hex { color: #4BD4F2; }
