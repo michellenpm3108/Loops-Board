@@ -1,5 +1,4 @@
-// LOOPS
-// loop allows to execute something many times as we want
+// LOOPS: loop allows to execute something many times as we want
 // syntax: 
 for (let i = 0; i < 10 ; i++) {
     console.log(i); //it will loop over and print out index 10 times from 0 to 9
@@ -12,7 +11,8 @@ for (let i = 0 ; i < designSkills.length ; i++) {
 }
 
 // FOR LOOPS WITH IF STATEMENT 
-// **Challenge: Have 9 players. Create a loop that loops over the numbers given to each one of us. 
+// **Challenge: RED TEAM VS BLUE TEAM
+// Have 9 players. Create a loop that loops over the numbers given to each one of us. 
 // If the person has even number, print out the word 'blue team'. 
 // If it is odd, print out the word 'red team'.
 
@@ -23,9 +23,10 @@ for (let i = 1 ; i <= players ; i++) {
     } else console.log('Person number ' + i + ' is on the red team');
 }
 
-// **Challenge: you are at your shift at the shop and the owner has left you with a long list of
-//things in the inventory. He has asked you to find out how many 'mustard' bottles you have in 
-//stock. Use a for loop to count the amount of 'mustard' you have.
+// **Challenge: COUNT THE MUSTARD
+// you are at your shift at the shop and the owner has left you with a long list of
+// things in the inventory. He has asked you to find out how many 'mustard' bottles you have in 
+// stock. Use a for loop to count the amount of 'mustard' you have.
 
 const shopInventory = ['milk', 'Cheddar', 'mustard', 'ketchup', 'olive oil', 'cheddar', 'milk',
  'garlic', 'mayo', 'carrots', 'cheddar', 'Mustard', 'mayo', 'orange juice']
@@ -37,3 +38,51 @@ for (let i = 0; i < shopInventory.length ; i++) {
     }
 }
 console.log ('We have ' + count + ' mustard(s) left in our inventory')
+
+// ** Challenge: NIGHTCLUB MESSAGE
+// You are working at a very fancy new nightclub and in charge of letting people in 
+// based on their age. If they are not 21 years of age, you cannot let them in. 
+// Please send them a nice personalised message letting them know.
+
+const nightClubRegister = [
+    {
+        name: 'Ahmed',
+        lastname: 'Abdool',
+        age: 25,
+        gender: 'male'
+    },
+    {
+        name: 'Sally',
+        lastname: 'Morgan',
+        age: 18,
+        gender: 'female'
+    },
+    {
+        name: 'Dionne',
+        lastname: 'Brown',
+        age: 29,
+        gender: 'female'
+    },
+    {
+        name: 'Max',
+        lastname: 'Forrester',
+        age: 20,
+        gender: 'male'
+    }
+]
+
+for (let i=0 ; i < nightClubRegister.length ; i++) {
+    if (nightClubRegister[i].age < 21) {
+        if (nightClubRegister[i].gender === 'male') {
+            console.log ('Sorry mr. ' + nightClubRegister[i].lastname + ' you are not old enough to attend our nightclub party')
+        } else  {
+            console.log ('Sorry mrs./miss ' + nightClubRegister[i].lastname + ' you are not old enough to atttend our nightclub party')
+        }
+    } else {
+        if (nightClubRegister[i].gender === 'male') {
+            console.log ('Hi mr. ' + nightClubRegister[i].lastname + ' you are on the list')
+        } else {
+             console.log ('Hi mrs./miss ' + nightClubRegister[i].lastname + ' you are on the list')
+        }
+    }
+}
