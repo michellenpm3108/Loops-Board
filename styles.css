@@ -59,6 +59,7 @@ body {
     color: #D92D07;
     text-transform: uppercase;
     align-items: center; 
+    font-size: 2rem;
 }
 .grid {
     width: 286px;
@@ -84,6 +85,15 @@ body {
 /*  -----------------
     PACMAN BOARD ----- 
     -----------------*/
+.pacman-board-body {
+    background-color: #ffcdf9;
+    padding: 1em 2em;
+
+}
+.pacman-board-title {
+    font-size: 2rem;
+    color: white;
+}
 .pacman-grid {
     width: 376px;
     height: 376px;
@@ -95,6 +105,36 @@ body {
 .pacman-grid div {
     width: 20px;
     height: 20px;
-    border: white solid .5px
+    /* border: white solid .5px */
 }
 
+.one {
+    background-color:#6eb5ff;
+}
+.two {
+    background-color: #ffabab;
+    border-radius: 15px;
+}
+.three {
+    background-color: white;
+    border: 5px solid #ffcdf9;
+}
+.four {
+    background-color: #ffcdf9;
+}
+.five {
+    background-color: #ff0000;
+}
+.six{
+    background-color: #fec0cb;
+}
+.seven {
+    background-color: #07ffff;
+}
+.eight {
+    background-color: #ffa500;
+}
+.nine {
+    background-color: #feff00;
+    border-radius: 15px;
+}
