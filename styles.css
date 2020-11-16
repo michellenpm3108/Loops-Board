@@ -27,6 +27,7 @@ body {
 
 .btn {
     width: 70%;
+    min-width: 200px;
     text-decoration: none;
     color: #D92D07; 
     font-size: 1.5rem;

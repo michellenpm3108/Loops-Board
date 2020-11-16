@@ -10,6 +10,23 @@ for (let i = 0 ; i < designSkills.length ; i++) {
     console.log (designSkills[i]) // it will loop over the array
 }
 
+//NESTED LOOP
+// a nested loop is a loop within a loop (an inner loop within the body of outer one)
+// the first part of the outer loop trigger the inner loop which execute the completion
+// Once the first loop is executed, it will wait for the second loop to finish executing, 
+// and only then loop once more.
+
+// Example: 4 builidings on the street, each building has 3 flats
+
+const buildings = 4 
+for (let i=0 ; i < buildings ; i++) {
+    console.log ('building ' + (i+1))
+    const flats = 3;
+    for (let j=0 ; j < flats ; j++) {
+        console.log ('flat ' + (j+1))
+    }
+}
+
 // FOR LOOPS WITH IF STATEMENT 
 // **Challenge: RED TEAM VS BLUE TEAM
 // Have 9 players. Create a loop that loops over the numbers given to each one of us. 
