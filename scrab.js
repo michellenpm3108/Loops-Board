@@ -12,12 +12,28 @@ const layout = [
     '','','','','','','','','','',
     '','','','','','','','','','',
 ]
+const color = [
+    1,1,1,1,1,1,1,1,1,1,
+    3,3,3,3,3,3,3,3,3,3,
+    1,1,1,1,1,1,1,1,1,1,
+    1,1,1,1,1,1,1,1,1,1,
+    1,1,1,1,1,1,1,1,1,1,
+    1,1,1,1,1,1,1,1,1,1,
+    1,1,1,1,1,1,1,1,1,1,
+    3,3,3,3,3,3,3,3,3,3,
+    1,1,1,1,1,1,1,1,1,1,
+    1,1,1,1,1,1,1,1,1,1,
+]
 
 for (let i=0; i < squares.length; i++) {
-    let letter = layout[i]
-    for (let j=0; j < layout.length ; j++) {
-        if (letter !=='') {
-            squares[i].innerHTML = letter
-        }
+    let letter = layout[i] 
+    squares[i].innerHTML = letter
+    if (letter !== '') {
+        squares[i].classList.add('yellow')
+    }
+}
+for (let i=0; i < squares.length ; i++) {
+    if (color[i] === 3) {
+        squares[i].classList.add ('pattern')
     }
 }
