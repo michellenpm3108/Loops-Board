@@ -11,10 +11,10 @@
 
 }
 body {
-    background: #307CBF;
+    background: #ffcdf9;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .main-container {
     width: 90%;
@@ -29,9 +29,9 @@ body {
     width: 70%;
     min-width: 200px;
     text-decoration: none;
-    color: #D92D07; 
+    color: white; 
     font-size: 1.5rem;
-    background-color: #D9A362;
+    background-color: #ffabab;
     border-radius: 15px;
     padding: .5em 1.5em;
     margin: .5em 0;
@@ -39,17 +39,11 @@ body {
 }
 .btn:hover,
 .btn:focus {
-    background-color: #4BD4F2;
+    background-color: #6eb5ff;
 }
-@media (min-width: 600px) {
-    .main-container {
-        width: 70%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+@media (min-width: 800px) {
     .btn {
-        width: 45%;
+        width: 30%;
     }
 }
 /*  -----------------
@@ -57,7 +51,7 @@ body {
     -----------------*/
 
 .colour-board-title {
-    color: #D92D07;
+    color:white;
     text-transform: uppercase;
     align-items: center; 
     font-size: 2rem;
@@ -68,20 +62,22 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #fff;
-    border: #D92D07 solid 8px;
+    background-color: #ffcdf9;
+    border: white solid 8px;
     border-radius: 20px;
 }
 .grid div {
     width: 30px;
     height: 30px;
-    border: .5px solid #D95407;
+    border: .5px solid white;
 }
+
+
 .even {
-    background-color: #D95407;
+    background-color: #6eb5ff;
 }
 .odd {
-    background-color: #D9A362;
+    background-color: #ffcdf9;
 }
 /*  -----------------
     PACMAN BOARD ----- 
