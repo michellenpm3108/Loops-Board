@@ -46,16 +46,34 @@ body {
         width: 30%;
     }
 }
+.board-title {
+    font-size: 2rem;
+    color: #ffabab;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.return {
+    text-align: center;
+    margin-top: 2em;
+}
+.return-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #ffabab;
+    font-size: .75rem;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: .5em 1.5em;
+}
+.return-btn:hover,
+.return-btn:focus {
+    background-color: #6eb5ff;
+}
 /*  -----------------
     COLOR BOARD ----- 
     -----------------*/
 
-.colour-board-title {
-    color:white;
-    text-transform: uppercase;
-    align-items: center; 
-    font-size: 2rem;
-}
 .grid {
     width: 286px;
     height: 286px;
@@ -82,15 +100,8 @@ body {
 /*  -----------------
     PACMAN BOARD ----- 
     -----------------*/
-.pacman-board-body {
-    background-color: #ffcdf9;
-    padding: 1em 2em;
 
-}
-.pacman-board-title {
-    font-size: 2rem;
-    color: white;
-}
+
 .pacman-grid {
     width: 376px;
     height: 376px;
