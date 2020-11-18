@@ -152,25 +152,25 @@ body {
     -----------------*/
 
 .scrab-grid {
-    width: 206px;
-    height: 187px;
+    width: 316px;
+    height: 286px;
     display: flex;
     flex-wrap: wrap;
     border: white 8px solid;
 }
 .scrab-grid div {
-    width: 19px;
-    height: 19px;
+    width: 30px;
+    height: 30px;
     border: .5px solid white;
     text-align: center;
     font-family:'goldman';
+    font-size: 1.75rem;
+    color: #ffabab;
 }
 .pattern {
-    /* background-color: #ffabab; */
-    /* opacity: 0.3; */
-   
+   background-color: #ffabab; 
 }
 
-.yellow {
-    background-color: #fec0cb;
+.blue {
+    background-color: #07ffff;
 }
